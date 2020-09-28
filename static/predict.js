@@ -11,7 +11,8 @@ $("#image-selector").change(function () {
 	}
 	
 	let file = $("#image-selector").prop('files')[0];
-	//console.log($("#image-selector").prop('files'));
+	// List all the files selected
+	console.log($("#image-selector").prop('files'));
 	reader.readAsDataURL(file);
 	$('#prediction').hide();
 });

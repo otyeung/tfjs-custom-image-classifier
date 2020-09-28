@@ -33,4 +33,6 @@ Run the local web server (http://localhost:8080) script:
 $ npm run start
 ```
 
-
+Branches :
+- baseline : single file upload, count accuracy one by one
+- master : multiple file upload, count accuracy, export CSV
